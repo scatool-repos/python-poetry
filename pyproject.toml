@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-poetry"
+version = "0.1.0"
+description = ""
+authors = ["StealWonders <6114858+StealWonders@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.116.0"
+requests = "^2.32.4"
+polars = "^1.31.0"
+matplotlib = "^3.10.3"
+sentry-sdk = {extras = ["fastapi"], version = "^2.32.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
